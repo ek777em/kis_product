@@ -3,12 +3,14 @@ public class Product
 	private String name = "Coca Cola";
 	private float price = 10;
 	private boolean onStock = true;
+	private int id;
 
-	public Product(String name, float price, boolean onStock)
+	public Product(String name, float price, boolean onStock, int id)
 	{
 		this.name = name;
 		this.price = price;
 		this.onStock = onStock;
+		this.id = id;
 	}
 
 	public String getName()
